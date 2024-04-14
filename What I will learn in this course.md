@@ -1,5 +1,5 @@
 - [ ] Season 1 
-    - [ ]  Introduction to Ethical hacking(1) [[💖Day1_ introduction]]
+    - [x]  Introduction to Ethical hacking(1) [[💖Day1_ introduction]]
     - [ ] Linux (5)  
     - [ ] Python (3) 
     - [ ] Bash (2) 

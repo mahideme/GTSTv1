@@ -91,3 +91,53 @@ These elements help protect information assets from unauthorized access, modific
 - Evaluation of network security - to check
 - upgradation of infrastructure - to recommend
 
+
+### ✨Types of Pentesting
+
+1. Black box pentesting
+    - testing system **without prior knowledge**.
+    - you test as an **attacker**.
+2. White box pentesting
+    - testing system **with prior knowledge**.
+    - you test as a **developer.
+3. Grey box pentesting
+    - testing system **with limited knowledge**. 
+    - you test as a **user**. 
+
+
+## 📌Terms
+
+ **Red Team**
+     - these peoples are offensive, and trying to attack and trying to gain access, then report the way they got in.
+**Blue Team**
+      - they are the defensive peoples, who will do firewalls and try to protect you.
+**Vulnerability Assessment**
+       - these are peoples, who do some security check based on some list.
+**Security Audit**
+       -  a comprehensive evaluation of an organization's security controls, policies, and procedures to ensure compliance with standards and identify areas for improvement.
+
+
+## 🔥Jobs with Ethical Hacking💰
+
+1. ==Cyber Security Expert==
+2. ==Network Security Tester ==
+3. Cyber Security Consultant 
+4. Web penetration tester 
+5. Internal and External Penetration tester
+6. Security Analyst 
+7.  Bug Hunter
+
+
+## 😇 Ethics of Cyber Security
+
+- Respect the privacy of others.
+- Think before you type. 
+- With great power comes great responsibility.
+- Always have ==permission==
+
+
+---
+
+
+# 🎉End of day one 🎉
+for day two [[💖Day2_ introduction to Linux]]

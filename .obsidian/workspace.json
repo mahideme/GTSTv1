@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c5aea58c81e42618",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "What I will learn in this course.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0b65f528385c6e4b",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💖Day1_ introduction.md",
+                "file": "What I will learn in this course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💖Day1_ introduction.md",
+                "file": "What I will learn in this course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💖Day1_ introduction.md"
+                "file": "What I will learn in this course.md"
               }
             }
           }
@@ -147,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2dd95115c3b92cbe",
+  "active": "c5aea58c81e42618",
   "lastOpenFiles": [
-    "What I will learn in this course.md",
+    "💖Day2_ introduction to Linux.md",
     "💖Day1_ introduction.md",
+    "What I will learn in this course.md",
     "README.md"
   ]
 }
