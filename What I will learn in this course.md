@@ -1,0 +1,19 @@
+- [ ] Season 1 
+    - [ ]  Introduction to Ethical hacking(1) [[💖Day1_ introduction]]
+    - [ ] Linux (5)  
+    - [ ] Python (3) 
+    - [ ] Bash (2) 
+    - [ ] Networking (1) 
+- [ ]  Season 2
+    - [ ] Foot-printing and recon 
+    - [ ] Scanning Network 
+    - [ ] Malware threats 
+    - [ ] Social Engineering( Social Media hacking ) 
+    - [ ] Steganography & Cryptography 
+    - [ ] Sniffing 
+    - [ ] System Hacking( Phone, Computer, Server hacking , reverse shell) 
+    - [ ] DOS/DDOS + DARK WEB 
+    - [ ] Hacking Websites 
+    - [ ] Hacking Wireless Networks { WIFI and ETHERNET hacking} 
+    - [ ] CTF 
+    - [ ] BUG BOUNTY HUNTING & What you have to Do next?

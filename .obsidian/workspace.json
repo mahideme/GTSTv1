@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b97e638dc0a27a8",
+            "id": "2dd95115c3b92cbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "💖Day1_ introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0b65f528385c6e4b",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "💖Day1_ introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "💖Day1_ introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "💖Day1_ introduction.md"
               }
             }
           }
@@ -146,6 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b97e638dc0a27a8",
-  "lastOpenFiles": []
+  "active": "2dd95115c3b92cbe",
+  "lastOpenFiles": [
+    "What I will learn in this course.md",
+    "💖Day1_ introduction.md",
+    "README.md"
+  ]
 }
