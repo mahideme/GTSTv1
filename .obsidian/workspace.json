@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2dd95115c3b92cbe",
+            "id": "c9593db51a8036fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💖Day1_ introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5aea58c81e42618",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What I will learn in this course.md",
+                "file": "💖Day4_Further on Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0b65f528385c6e4b",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "What I will learn in this course.md",
+                "file": "💖Day4_Further on Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "What I will learn in this course.md",
+                "file": "💖Day4_Further on Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "What I will learn in this course.md"
+                "file": "💖Day4_Further on Linux.md"
               }
             }
           }
@@ -159,10 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5aea58c81e42618",
+  "active": "c9593db51a8036fe",
   "lastOpenFiles": [
-    "💖Day2_ introduction to Linux.md",
     "💖Day1_ introduction.md",
+    "💖Day4_Further on Linux.md",
+    "Untitled",
+    "💖Day3_Linux for users.md",
+    "💖Day2_ introduction to Linux.md",
     "What I will learn in this course.md",
     "README.md"
   ]

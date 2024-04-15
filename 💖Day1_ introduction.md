@@ -70,9 +70,9 @@ These elements help protect information assets from unauthorized access, modific
 ### ✨Phases of Hacking
 
 1. Reconnaissance - the act of scouting or exploring
-2. Scanning
-3. Gaining access
-4. Maintaining access 
+2. Scanning - for vulnerability(weakness)
+3. Gaining access -
+4. Maintaining access - post exploitations, 
 5. Clearing tracks or logs
 
 

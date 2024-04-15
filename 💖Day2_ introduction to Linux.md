@@ -140,3 +140,8 @@ there are many options
         - VMware
 6. WSL v2 :- Windows Subsystem for Linux. it **gives Linux terminal on windows**. for low processor.  distros like ubuntu or kali
 7. Termux - Android
+
+---
+
+# 🎉End of day two 🎉
+for day three [[💖Day3_Linux for users]]
