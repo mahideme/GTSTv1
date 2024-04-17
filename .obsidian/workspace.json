@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💖Day3_Linux for users.md",
+                "file": "💖Day1_ introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💖Day3_Linux for users.md",
+                "file": "💖Day1_ introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💖Day3_Linux for users.md",
+                "file": "💖Day1_ introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💖Day3_Linux for users.md"
+                "file": "💖Day1_ introduction.md"
               }
             }
           }
@@ -148,14 +148,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c643b8b0d8f811a",
+  "active": "c9593db51a8036fe",
   "lastOpenFiles": [
-    "💖Day4_Further on Linux.md",
+    "What I will learn in this course.md",
     "💖Day2_ introduction to Linux.md",
+    "💖Day4_Further on Linux.md",
     "💖Day3_Linux for users.md",
     "💖Day1_ introduction.md",
     "Untitled",
-    "What I will learn in this course.md",
     "README.md"
   ]
 }

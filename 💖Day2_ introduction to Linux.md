@@ -144,4 +144,4 @@ there are many options
 ---
 
 # 🎉End of day two 🎉
-for day three [[💖Day3_Linux for users]]
+NEXT -- [[💖Day3_Linux for users]]

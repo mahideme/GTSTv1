@@ -140,4 +140,4 @@ These elements help protect information assets from unauthorized access, modific
 
 
 # 🎉End of day one 🎉
-for day two [[💖Day2_ introduction to Linux]]
+NEXT -- [[💖Day2_ introduction to Linux]]

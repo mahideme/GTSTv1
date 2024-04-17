@@ -278,3 +278,7 @@ tilda - current directory home directory
 100. `lynis` - Security auditing tool.
 
 
+---
+
+# 🎉End of day three 🎉
+NEXT -- [[💖Day4_Further on Linux]]
