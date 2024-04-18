@@ -75,22 +75,36 @@ tilda - current directory home directory
      -- ls -a 
      -- ls filename 
      -- ls -R => recursive
+     -- ls *.file_extention (ls *.py)
      -- You can combine them, ls -Rla 
      -- Linux hidden files start with dot
 -  cd -- Change Directory 
      --SYNOPSIS cd [directory]. it is used to change current working directory.
      -- cd / => root 
-     -- cd => home 
+     -- cd => tilda - home directory
      -- cd .. => 1x Back 
      -- cd ../.. => 2x Back 
      -- cd foldername ( for space name "folder name")
- -  Pwd -- print working directory 
+ - Pwd -- print working directory 
       -- SYNOPSIS pwd [-options]. It prints the path of the working directory, starting from the root.
+- cp -- copy
+      --  cp **file to_be_cp**   **path_for_cp**
+      --eg : cp tee.txt m.txt y.py  /home/username/..
+- mv -- move / cut
+       -- eg : mv tee.txt m.py  /home/username/..
+-  > -- after any command we can use it.
+        -- to put command's output as a text.
+        -- we only have to give file extension.
+        -- eg: ls -l > hac.txt
   - echo  SYNOPSIS echo [option] [string]. 
        -- echo command in linux is used to display line of text/string that are passed as an argument . This is a built in command that is mostly used in shell scripts and batch files to output status text to the screen or a file.
-       -- You can write texts into files. ○ echo text > file.txt ● You can add texts(append) ○ echo text >> file.txt
+       -- You can write texts into files. 
+          -- echo text > file.txt 
+       -- You can add texts(append)  
+         -- echo text >> file.txt
    - cat / head / tail / less -- SYNOPSIS cat [FILE]...
       -- Used to show the content of a file
+      -- eg : cat hac.txt
   - touch -- SYNOPSIS touch [FILE1] [FILE2] [FILE3] 
         -- Creates any kind of Files with the name you gave it. With empty inside
      

@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f598d47841ab9ad0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💖Day3_Linux for users.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c9593db51a8036fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💖Day1_ introduction.md",
+                "file": "💖Day4_Further on Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💖Day1_ introduction.md",
+                "file": "💖Day4_Further on Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💖Day1_ introduction.md",
+                "file": "💖Day4_Further on Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💖Day1_ introduction.md"
+                "file": "💖Day4_Further on Linux.md"
               }
             }
           }
@@ -150,11 +162,12 @@
   },
   "active": "c9593db51a8036fe",
   "lastOpenFiles": [
-    "What I will learn in this course.md",
-    "💖Day2_ introduction to Linux.md",
-    "💖Day4_Further on Linux.md",
     "💖Day3_Linux for users.md",
+    "💖Day4_Further on Linux.md",
+    "💖Day5_Advanced Linux.md",
+    "What I will learn in this course.md",
     "💖Day1_ introduction.md",
+    "💖Day2_ introduction to Linux.md",
     "Untitled",
     "README.md"
   ]
