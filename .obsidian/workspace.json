@@ -13,14 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💖Day3_Linux for users.md",
+                "file": "💖Day5_Advanced Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c9593db51a8036fe",
+            "id": "5b704e7a14c98720",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💖Day4_Further on Linux.md",
+                "file": "💖Day5_Advanced Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💖Day4_Further on Linux.md",
+                "file": "💖Day5_Advanced Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💖Day4_Further on Linux.md"
+                "file": "💖Day5_Advanced Linux.md"
               }
             }
           }
@@ -152,19 +151,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Create new canvas": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9593db51a8036fe",
+  "active": "f598d47841ab9ad0",
   "lastOpenFiles": [
-    "💖Day3_Linux for users.md",
     "💖Day4_Further on Linux.md",
     "💖Day5_Advanced Linux.md",
+    "💖Day5_finishing linux.md",
+    "Pasted image 20240419185230.png",
+    "Pasted image 20240419182824.png",
+    "Pasted image 20240419144947.png",
+    "💖Day3_Linux for users.md",
     "What I will learn in this course.md",
     "💖Day1_ introduction.md",
     "💖Day2_ introduction to Linux.md",

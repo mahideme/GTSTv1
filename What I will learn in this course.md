@@ -1,6 +1,6 @@
 - [ ] Season 1 
     - [x]  Introduction to Ethical hacking(1) [[💖Day1_ introduction]]
-    - [ ] Linux (5) [[💖Day2_ introduction to Linux]] , [[💖Day3_Linux for users]] ,         [[💖Day4_Further on Linux]] ,
+    - [ ] Linux (5) [[💖Day2_ introduction to Linux]] , [[💖Day3_Linux for users]] ,         [[💖Day4_Further on Linux]] , [[💖Day5_Advanced Linux]]
     - [ ] Python (3) 
     - [ ] Bash (2) 
     - [ ] Networking (1) 

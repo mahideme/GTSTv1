@@ -22,7 +22,7 @@
 
 2) bin - Binary executables 
      - Essential command binaries that need to be available in single-user mode; for all users
-         i) e.g) cat, ls, cp,pwd
+         i) e.g) cat, ls, cp,pwd -- runnable commands
 
 3) /boot - Boot loader files 
       - Kernel initrd, vmlinux, grub files are located under /boot 
@@ -89,22 +89,54 @@
 # ⌨Text Editors 
 
 - Programs That used for text processing. 
-- Linux command line text editors 
-     - VIM 
-     - Nano 
+- Linux command line text editors : programs that are used to process, save, edit, write.... on terminal
+     - VIM - hard
+     - Nano - simple
      - Emacs 
      - Neovim 
      - …. 
-- Linux Graphical Text editors 
+- Linux Graphical Text editors : on application
      - Sublime 
      - Vscode 
      - Gedit 
      - Pluma 
      - …
 
+### vim 
+- vi is the primary editor used on unix. - it was a line editor( see/edit only one line of the text at a time).
+- then VIM - VI IMproved developed 
+- it is very powerful, cryptic, hard to learn
+- it have mainly to modes 
+        - command mode -> where you can do commands
+        - input mode/insert mode -> where you can write 
+  - ==vim filename==
+- **by default on command mode** when we open it.
+- **to get on insert mode** type **"i"**
+- **to return to the command mode** click **esc**
+- things to do **inside command mode** 
+     - save :- type **:w** + enter
+     - quit :- type **:q** +enter
+     - save & quit :- **:wq** +enter / **:x**
+     - force quit & save :- **:wq!** + enter
+     - undo :- **:undo** +enter / **:u** 
+     - execute bash commands :- **:%!yourcommand**
+
+### nano
+- the GNU nano text editor is a user-friendly, free and open-source text editor that usually comes pre-installed in modern linux systems.
+- ==nano filename==
+- things to do
+     - save -- **Crtl + S** 
+     - undo -- **Alt +U**
+     - redo --**Alt + E**
+     - exit --**Crtl + X**
+     - copy -- **Crtl+shift+C**
+     - cut -- **Crtl+shift+X**
+     - paste -- **Crtl+shift+V**
+     - append texts from other files -- **Crtl + R** and specify the path
+     - the **==^** = **Ctrl==**
 
 
-
+![[Pasted image 20240419144947.png]]
 
 
 # Linux user management 
@@ -112,53 +144,62 @@
 
 whoami = username
 hostname = machine name
+==id== -- 
 
-creating user(user creating)
-commands .. using sudo
+On Computer system, person who uses the computer is called “user” 
+-  Every Users have Group. 
+- Users have their own file & applications. 
+-  To know our name on linux -> “ whoami “ 
+-  Those users have power/privilege. 
+-  On linux there's 2 kinds users. 
+    -  Root id = 0
+    -  Normal User id start with 1-999 
+The root user have the power to do everything on linux , but if users want to have a root access they add sudo in front of the command . ==sudo YourCommand==
+
+creating user(user creating). When you create a user it creates a group with that name.
+commands .. **using sudo -- super user do**
 1. useradd- less powerfull. 
          - eg: ==useradd *username*==
          - terminal type - sh
          - doesn't require password for the created user. 
          - they don't appear in the home directory (/home)
-         - to add them on the home directory(/home)
+         - to **add them on the home directory(/home)**
              - command
                   - ==sudo mkhomedir_helper username==
-        - to their terminal from sh
+        - to **change their terminal from sh to bash**
             - command   "-h"--  to ask for option
                   -  ==sudo usermod  username -s /bin/bash==
-        - to give them password
-             -  ==sudo passwd username==
-         - to delete password of the user
-             - ==sudo passwd -d username==
-        - to delete completely simply uses ==sudo userdel username==
+        - to **delete completely** simply uses ==sudo userdel username==
 2. adduser - more powerfull. 
           - eg: ==adduser *username*==
           - terminal type - bash
           - it require password for the created user.
-          - they appear in the home directory.
-          - to delete password of the user
+          - they appear in the home directory.==
+         - to **delete the user permanently** from all directory we use
+              -- ==sudo userdel -r username== or ==sudo deluser --remove-home username==
+          - it does remove user in ==sudo userdel username== but not earse its name from directory so use the above.
+to **give them password**
+             -  ==sudo passwd username==
+to **delete password** of the user
              - ==sudo passwd -d username==
-          - to give them password
-            -  ==sudo passwd username==
-         - to delete the user permanently from all directory we use ==sudo userdel -r username== or ==sudo deluser --remove-home username==
-          - it does remove user in ==sudo userdel username== but not earse its name from directory so use the above
-to check if we create a user 
+to **check of user creation**
     - ==cat /etc/passwd==
-    
+to **change user id** 
+    - ==sudo usermod -u new_id username==
 sudo gives power --- only root have this power
-     - to access root -> command
+     - to **access root** -> command
          - ==su -==
             or if we don't have root password
           - ==sudo su -==
 
-for entering into other users
+for **entering into other users**
   -- commands
        -- ==su - other_username==
             or if password is unknown
        -- sudo su - ==other_username==
 
   - after we enter by user account, if we try to add another user  in that user account , we will denied because that user (the user account we entered) are not on the sudoers file.
-  - so how can that user be  in the sudoers file like us?? he can't by itself so we(sudoers) can give him super power.
+  - so how can that **user be  in the sudoers** file like us?? he can't by itself so we(sudoers) can give him super power.
          -  to give him power 
             - 1st out from that user - : ==logout /exit/ctrl d== 
             - 2nd on the  home directory(/home) - :  ==sudo visudo==  -> on the "user privilege specification" , fill the form by username that we want to give.  eg : ==username  ALL = ALL== . then ctrl x or ctrl c -> to out.
@@ -168,7 +209,7 @@ for entering into other users
              - to see the created -> ==cat /etc/passwd==
 
 
-to see password on linux - but it is encrypted 
+to **see password** on linux - but it is encrypted 
     -> ==sudo cat /etc/shadow==
 ###### to delete users from that we created
 >to remove users but not from the directory( username)
@@ -181,18 +222,18 @@ to see password on linux - but it is encrypted
 -> ==sudo rm -r /home/username== --permanently removes the file. from the home directory but not from data ( delete it from ls but not from cat /etc/passwd)
 
 to group(collection of users that can share files) users that we created. in fact each user creates its own group
-to know our groups ( foreach users)
+to **know our groups** ( foreach users)
      -> ==groups==
-to create group
+to **create group**
      -> ==sudo groupadd groupname==
-to check for group
+to **check for group**
      -> ==cat /etc/group==
-to give super power for that group 
+to **give super power** for that group 
      -> ==sudo visudo==  -> on the "allow members of group sudo ..." fill the form by the group name. eg: ==%group name  ALL = ALL== . then ctrl x, ctrl c.
       - therefore any users that are in this group will have this super power.
-to add users to the group 
+to **add users to the group** 
       ->==sudo usermod -aG groupname username==
-to check if they joined the group
+to **check** if they joined the group
       -> ==cat /etc/group==
       -> ==groups==   - for each users.
 then check if each users that are in the group, have a power as they are in the group that we already give super power.  ( if they can use sudo they have power)
@@ -201,8 +242,17 @@ then check if each users that are in the group, have a power as they are in the 
        ->==sudo useradd username==
 therefore only users that are on the sudoer file have supper power.
 
-to delete group 
+to **delete group** 
     ->==sudo groupdel groupname==
-to remove user form the group 
+to **remove user form the group** 
     -> ==sudo gpasswd -d username groupname==
     -> ==sudo nano /etc/group== -- using manual group file editing. -- Locate the line corresponding to the group from which you want to remove the user. -- Remove the username from the line, ensuring that the usernames are separated by commas. -- Save the changes and exit the text editor
+
+
+
+
+how to edit the txt written in echo??????
+
+
+# 🎉End of day four 🎉
+NEXT -- [[💖Day5_Advanced Linux]]
