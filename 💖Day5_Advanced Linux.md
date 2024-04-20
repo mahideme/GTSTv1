@@ -65,9 +65,11 @@ from the git hub
      - is the owner of the file 
      - This have 2 kinds 
           - User   - Group 
-     - To change the owner of file you can use the command 
-            ==chown user:group filename==  -- to change both
-            ==chown username filename==  -- to change only the user
+     - To **change the owner of file** you can use the command 
+            ==chown user:group filename==  -- to change **both**
+            ==chown username filename==  -- to change **only the user**
+            ==chown :newgroup filename== -- to change **only the group**
+            ![[Pasted image 20240420132528.png]]
 
 
 Permission 
@@ -77,30 +79,54 @@ Permission
      - Execute ( x ) 
 - The folders and files are differ with the ‘d’ and ‘-’ on the beginning of the permission.
 - There still the permission have three parts. 
-       - ○ user -group-other 
+       - user -group-other 
 - User ( u ) => power of user defined on the the ownership 
 - Group (g )=> power of group defined on the the ownership 
 - Other ( o ) => power of other users. 
 - All ( a ) => power of all which can be found in the 3 above owners 
-- Command to change permission of file 
+- Command to **change permission** of file 
       ==chmod +/- x/w/r  filename==
   ![[Pasted image 20240419185230.png]]
   - CHMOD command 
      - This command helps to change file permission. 
      - Those file permissions are read, write & execute. 
      - Each of the permission have a number representations. 
-          - Read -> 4 - r 
-          - Write -> 2 - w 
-          - Execute -> 1 - x 
+          - Read -> **4 - r** 
+          - Write -> **2 - w** 
+          - Execute -> **1 - x** 
     -  ==chmod "parameters" filename==
 - The parameter can be in numbers and symbols 
    A) Parameters in symbol 
       - chmod a+x filename -> adding execute permission for all ( chmod +x filename) 
-      - chmod u+x filename -> adding execute permission for user 
-      - chmod g+x filename -> adding execute permission for group 
-      - chmod o+x filename -> adding execute permission for other 
-      - chmod -x filename -> removing execute permission for all 
-      - chmod a+rwx , u-rw , g-x , o-xw filename -> gives rwx for all and removes something from all 
+      - chmod **u+x** filename -> adding execute permission for user **it can be w or r**
+      - chmod **g+x** filename -> adding execute permission for group 
+      - chmod **o+x** filename -> adding execute permission for other 
+      - chmod **-x** filename -> removing execute permission for all 
+      - chmod **a+rwx , u-rw , g-x , o-xw** filename -> gives rwx for all and removes something from all 
     B) Parameters in Number 
-     chmod 621 filename -> 6 for user, 2 for group, 1 for other ( 6 = 4+2 ), 6 =r w 
-      chmod 777 filename -> 7 for users, 7 for group , 7 for others (7 =4+2+1), 7 = rwx
+     chmod **621** filename -> **u+rw, g+w, o+x** 6 for user, 2 for group, 1 for other ( 6 = 4+2 ), 6 
+      chmod **777** filename ->**a+rwx** 7 for users, 7 for group , 7 for others (7 =4+2+1), 7 
+
+
+1. Create file called “Perm.txt” and give the following permission to it  --w-r----x
+
+          ![[Pasted image 20240420140801.png]]
+
+2. What is the equivalent of 631 permission in symbolic?
+      -  -rw--wx--x  / drw--wx--x
+
+3. What is the equivalent of 200 permission in symbolic? 
+     - --w-------  / d-w-------
+
+4. What is the numeric equivalent of -rwxrw-rw-
+     - 766
+5. Create a user called gtst & test with password 123456 
+6. Change the file user owner of Perm.txt to gtst and the group owner to root
+     ==sudo chown gtst:root perm.txt==
+7. Change the user password of gtst to “pass123” 
+8. Change the user id of ‘gtst’ to 1923 
+9. Delete the user ‘test
+      ![[Pasted image 20240420143948.png]]
+      ![[Pasted image 20240420144017.png]]
+      ![[Pasted image 20240420144036.png]]
+      
