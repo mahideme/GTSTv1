@@ -68,9 +68,10 @@ These elements help protect information assets from unauthorized access, modific
 
 
 ### ✨Phases of Hacking
+when we test some system we have to pass this phases
 
 1. Reconnaissance - the act of scouting or exploring
-2. Scanning - for vulnerability(weakness)
+2. Scanning - finding for vulnerability(weakness)
 3. Gaining access -
 4. Maintaining access - post exploitations, 
 5. Clearing tracks or logs

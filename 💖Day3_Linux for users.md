@@ -279,7 +279,7 @@ tilda - current directory home directory
 87. `wifiphisher` - Automated Wi-Fi phishing tool.
 88. `metagoofil` - Gather metadata from public documents.
 89. `recon-ng` - Web reconnaissance framework.
-90. `exploitdb` - Searchable exploit database.
+90. `exploitdb` - Searchable exploidatabase.
 91. `enumiax` - Enumerate information from Asterisk PBX systems.
 92. `golismero` - Web application security testing framework.
 93. `sparta` - GUI-based network infrastructure penetration testing tool.

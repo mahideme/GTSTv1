@@ -1,4 +1,4 @@
-
+ 
 
 # Further on user management
 
@@ -129,4 +129,30 @@ Permission
       ![[Pasted image 20240420143948.png]]
       ![[Pasted image 20240420144017.png]]
       ![[Pasted image 20240420144036.png]]
-      
+
+
+### Special File Permissions
+- There are another 3 special permissions, you may encounter on your pentest Journey.
+- They are 
+     - SUID bits(s) - set user ID bit - add 4 infront of our numeric value -> 4000 
+     - SGID bits(S) - set group ID bit - add 2 infront of our numeric value -> 2777 
+     - Sticky bits(t) - set other ID bit - add 1 in front of our numeric value -> 1602 - 
+- They are permissions like the execute(x), but they will set the execute permission to the user who settled them.
+- Example: if mr.A add suid bit to a program that program will be executed with permission of mr.A 
+     - Meaning if admin add suid bit on some program. Then any user if they got that program they can run it as root with any sudo password.
+
+
+
+Package installation on linux 
+- ON linux to install softwares you use package managers. ○ Ex: apt,pacman,pkg,...  
+- We will use debian package manager. 
+- On debian the package manager i called ‘APT’ also there is called ‘dpkg’ 
+- Package managers are a free-software user interface that work with an online server to handle the installation and removal of software on Debian, and Debian-based Linux distributions
+
+
+
+
+ # from 4:00 to 12:00-- gtst linux finishing 
+ comparch  12-1: 30-- chapter two 
+ chapter 1 5- 6
+ chapter 1 and 2 -- 11: 30 - 1: 30

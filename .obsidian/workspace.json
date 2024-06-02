@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "8ae86260e726f212",
+        "id": "ffb3ffff8027405c",
         "type": "tabs",
         "children": [
           {
-            "id": "f598d47841ab9ad0",
+            "id": "de8b5242a38d1d47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💖Day5_Advanced Linux.md",
+                "file": "💖S-2 Day7_Anonymity and DOS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5b704e7a14c98720",
+            "id": "d45708e89ab984bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💖Day4_Further on Linux.md",
+                "file": "💖S-5 Day5_Cryptography.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,12 +78,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0b65f528385c6e4b",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💖Day5_Advanced Linux.md",
+                "file": "💖S-5 Day5_Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💖Day5_Advanced Linux.md",
+                "file": "💖S-5 Day5_Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💖Day5_Advanced Linux.md"
+                "file": "💖S-5 Day5_Cryptography.md"
               }
             }
           }
@@ -159,24 +160,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f598d47841ab9ad0",
+  "active": "d45708e89ab984bd",
   "lastOpenFiles": [
-    "Pasted image 20240420144036.png",
-    "Pasted image 20240420144017.png",
-    "Pasted image 20240420143948.png",
+    "💖S-2 Day3_Malware Threats.md",
+    "💖S-2 Day8_System Hacking.md",
+    "💖Day3_Linux for users.md",
+    "💖S-2 Day7_Anonymity and DOS.md",
+    "💖Day2_ introduction to Linux.md",
+    "💖Day12_Networking for Hackers!.md",
+    "💖S-2 Day6_Network Hacking.md",
+    "💖S-5 Day5_Cryptography.md",
+    "💖S-2 Day2_Scanning and Enumeration.md",
+    "💖 Day1_ introduction.md",
+    "💖S-2 Day1_Reconnaissance.md",
+    "💖S-2 Day4_Social  Engineering!.md",
+    "Pasted image 20240525120116.png",
+    "Pasted image 20240525114323.png",
+    "Pasted image 20240525114307.png",
     "💖Day4_Further on Linux.md",
     "💖Day5_Advanced Linux.md",
-    "Pasted image 20240420140801.png",
-    "Pasted image 20240420132528.png",
-    "💖Day5_finishing linux.md",
-    "Pasted image 20240419185230.png",
-    "Pasted image 20240419182824.png",
-    "Pasted image 20240419144947.png",
-    "💖Day3_Linux for users.md",
-    "What I will learn in this course.md",
-    "💖Day1_ introduction.md",
-    "💖Day2_ introduction to Linux.md",
+    "Pasted image 20240525104353.png",
+    "Pasted image 20240525103627.png",
+    "shopping online.md",
+    "Pasted image 20240525102406.png",
+    "Pasted image 20240520095445.png",
     "Untitled",
+    "py.py.md",
+    "Pasted image 20240520095446.png",
+    "What I will learn in this course.md",
+    "Pasted image 20240519162222.png",
+    "Untitled 3.canvas",
+    "Pasted image 20240419144947.png",
+    "💖Day5_finishing linux.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Day12_.md",
+    "💖Day10_Bash.md",
     "README.md"
   ]
 }
