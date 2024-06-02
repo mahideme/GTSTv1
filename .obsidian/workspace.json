@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💖Day5_Advanced Linux.md",
+                "file": "👩‍💻python.py.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💖Day5_Advanced Linux.md",
+                "file": "👩‍💻python.py.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💖Day5_Advanced Linux.md",
+                "file": "👩‍💻python.py.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💖Day5_Advanced Linux.md"
+                "file": "👩‍💻python.py.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "de8b5242a38d1d47",
   "lastOpenFiles": [
+    "💖Day5_Advanced Linux.md",
     "👩‍🎓What I will learn in this course.md",
     "💖S-2 Day7_Anonymity and DOS.md",
     "Untitled 3.canvas",
@@ -156,7 +157,7 @@
     "shopping online.md",
     "README.md",
     "Untitled.canvas",
-    "👩‍💻py.py.md",
+    "👩‍💻python.py.md",
     "👩‍💻assignments.md",
     "💖S-2 Day5_Cryptography.md",
     "💖S-2 Day3_Malware Threats.md",
@@ -173,7 +174,6 @@
     "Pasted image 20240525114323.png",
     "Pasted image 20240525114307.png",
     "💖Day4_Further on Linux.md",
-    "💖Day5_Advanced Linux.md",
     "Pasted image 20240525104353.png",
     "Pasted image 20240525103627.png",
     "Pasted image 20240525102406.png",
