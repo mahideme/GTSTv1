@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💖S-2 Day5_Cryptography.md",
+                "file": "What I will learn in this course.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💖S-2 Day5_Cryptography.md",
+                "file": "What I will learn in this course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💖S-2 Day5_Cryptography.md",
+                "file": "What I will learn in this course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💖S-2 Day5_Cryptography.md"
+                "file": "What I will learn in this course.md"
               }
             }
           }
@@ -161,8 +162,10 @@
   },
   "active": "d45708e89ab984bd",
   "lastOpenFiles": [
-    "💖S-2 Day3_Malware Threats.md",
     "💖S-2 Day5_Cryptography.md",
+    "py.py.md",
+    "💖S-2 Day3_Malware Threats.md",
+    "Untitled.md",
     "💖S-2 Day8_System Hacking.md",
     "💖Day3_Linux for users.md",
     "💖S-2 Day7_Anonymity and DOS.md",
@@ -184,7 +187,6 @@
     "Pasted image 20240525102406.png",
     "Pasted image 20240520095445.png",
     "Untitled",
-    "py.py.md",
     "Pasted image 20240520095446.png",
     "What I will learn in this course.md",
     "Pasted image 20240519162222.png",

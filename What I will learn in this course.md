@@ -1,18 +1,18 @@
-- [ ] Season 1 
+- [x] Season 1 
     - [x]  Introduction to Ethical hacking(1) [[💖 Day1_ introduction]]
-    - [ ] Linux (5) [[💖Day2_ introduction to Linux]] , [[💖Day3_Linux for users]] ,         [[💖Day4_Further on Linux]] , [[💖Day5_Advanced Linux]]
-    - [ ] Python (3) 
+    - [x] Linux (5) [[💖Day2_ introduction to Linux]] , [[💖Day3_Linux for users]] ,         [[💖Day4_Further on Linux]] , [[💖Day5_Advanced Linux]]
+    - [x] Python (3) 
     - [ ] Bash (2) 
-    - [ ] Networking (1) 
+    - [x] Networking (1) 
 - [ ]  Season 2
-    - [ ] Foot-printing and recon 
+    - [x] Foot-printing and recon 
     - [ ] Scanning Network 
-    - [ ] Malware threats 
-    - [ ] Social Engineering( Social Media hacking ) 
-    - [ ] Steganography & Cryptography 
-    - [ ] Sniffing 
+    - [x] Malware threats 
+    - [x] Social Engineering( Social Media hacking ) 
+    - [x] Steganography & Cryptography 
+    - [x] Sniffing 
     - [ ] System Hacking( Phone, Computer, Server hacking , reverse shell) 
-    - [ ] DOS/DDOS + DARK WEB 
+    - [x] DOS/DDOS + DARK WEB 
     - [ ] Hacking Websites 
     - [ ] Hacking Wireless Networks { WIFI and ETHERNET hacking} 
     - [ ] CTF 
