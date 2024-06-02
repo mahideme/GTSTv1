@@ -1,6 +1,7 @@
 
 ```python
 
+
 def get_cidr_notation(ip_class):
     if ip_class == "A":
         return "/8"
@@ -20,7 +21,11 @@ if name == "main":
 ```
 
 
+[[💖S-2 Day3_Malware Threats]]
+
 ```python
+
+
 import os
 
 files=[]
@@ -201,6 +206,8 @@ print('YOUR FILES ARE DECRYPTED!! \n THANKYOU FOR PAYING!!')
 ```
 
 
+
+[[💖S-2 Day5_Cryptography]]
 ```python
 def encrypt():
     msg=input('message: ')
@@ -259,3 +266,7 @@ print(decoded)
 
 
 ```
+
+
+
+

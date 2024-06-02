@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💖S-2 Day7_Anonymity and DOS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d45708e89ab984bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "What I will learn in this course.md",
+                "file": "💖Day5_Advanced Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "python",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "What I will learn in this course.md",
+                "file": "💖Day5_Advanced Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "What I will learn in this course.md",
+                "file": "💖Day5_Advanced Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "What I will learn in this course.md"
+                "file": "💖Day5_Advanced Linux.md"
               }
             }
           }
@@ -160,15 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d45708e89ab984bd",
+  "active": "de8b5242a38d1d47",
   "lastOpenFiles": [
+    "👩‍🎓What I will learn in this course.md",
+    "💖S-2 Day7_Anonymity and DOS.md",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "shopping online.md",
+    "README.md",
+    "Untitled.canvas",
+    "👩‍💻py.py.md",
+    "👩‍💻assignments.md",
     "💖S-2 Day5_Cryptography.md",
-    "py.py.md",
     "💖S-2 Day3_Malware Threats.md",
-    "Untitled.md",
     "💖S-2 Day8_System Hacking.md",
     "💖Day3_Linux for users.md",
-    "💖S-2 Day7_Anonymity and DOS.md",
     "💖Day2_ introduction to Linux.md",
     "💖Day12_Networking for Hackers!.md",
     "💖S-2 Day6_Network Hacking.md",
@@ -183,21 +176,14 @@
     "💖Day5_Advanced Linux.md",
     "Pasted image 20240525104353.png",
     "Pasted image 20240525103627.png",
-    "shopping online.md",
     "Pasted image 20240525102406.png",
     "Pasted image 20240520095445.png",
     "Untitled",
     "Pasted image 20240520095446.png",
-    "What I will learn in this course.md",
     "Pasted image 20240519162222.png",
-    "Untitled 3.canvas",
     "Pasted image 20240419144947.png",
     "💖Day5_finishing linux.md",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
     "Day12_.md",
-    "💖Day10_Bash.md",
-    "README.md"
+    "💖Day10_Bash.md"
   ]
 }
